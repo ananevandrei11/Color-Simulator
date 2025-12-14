@@ -1,17 +1,13 @@
-import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import { ColorGame } from './widget/ColorGame'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div className='text-amber-950 text-4xl'>
-        COUNT: {count}
-      </div>
-    </>
+    <div>
+      <ColorGame />
+    </div>
   )
 }
 
