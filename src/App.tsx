@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='text-amber-950 text-4xl'>
         COUNT: {count}
       </div>
     </>
