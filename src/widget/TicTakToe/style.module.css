@@ -1,0 +1,25 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.board * {
+  margin: 0;
+  padding: 0;
+}
+
+.line {
+  display: flex;
+  height: 50px;
+}
+
+.square {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  width: 50px;
+}
